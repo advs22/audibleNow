@@ -4,10 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-vosk = "*"
 sounddevice = "*"
+numpy = "*"
+vosk = "*"
+pip = "*"
 
 [dev-packages]
+ipykernel = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.9"
